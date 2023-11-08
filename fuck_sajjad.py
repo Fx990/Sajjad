@@ -135,31 +135,13 @@ def reg():
         os.system('clear')
         logo()
         print('')
-        print ('\tApproved Not Detected')
+        print ('\tApproved')
         print ('')
-        print (' \033[1;97mToken: ' + to)
+        print (' \033[1;97m)
         print(' WhatsApp : +8801796139512')
         input('\033[1;97m Press Enter To Get Approval \033[1;92m(FOR FREE)')
         os.system("xdg-open https://m.me/abalxhodi.py")
         reg()
- 
-def reg2():
-    os.system('clear')
-    logo()
-    print('')
-    print ('\tApproval Not Detected')
-    print('')
-    id = uuid.uuid4().hex[:50]
-    print (' Token : ' + id)
-    print(' WhatsApp : +8801796139512')
-    input(' Press Enter To Get Approval \033[1;92m(FOR FREE) ')
-    os.system("xdg-open https://wa.me/+8801796139512")
-    sav = open('/sdcard/Android/.bs7nt.txt', 'w')
-    sav.write(id)
-    sav.close()
-    reg()
- 
- 
  
 def FxARIYAN(OK,cp):
     if len(OK) != 0 or len(cp) != 0:
